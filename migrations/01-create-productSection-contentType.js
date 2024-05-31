@@ -1,5 +1,8 @@
 module.exports = function(migration){
 
+    //When you need to auto generate a script of you content model then you should run below command
+    // contentful space generate migration --space-id {space-id}
+
     //here I am creating a new content type and to that content type have added fields to it    
     const productSection = migration
         .createContentType("productSection")
